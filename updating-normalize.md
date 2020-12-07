@@ -36,7 +36,7 @@ That's opinionated, as every major browser behaves the same with nested h1 in `s
 &ensp;&ensp;~~overflow: visible;~~ [2]  
 ~~}~~
 
-[1] - Firefox has a proper box-sizing and height see: [link to github](https://github.com/necolas/normalize.css/pull/817)  
+[1] - Firefox has a proper box-sizing and height see: [link to pull request](https://github.com/necolas/normalize.css/pull/817)  
 [2] - Rule for IE, deleted
 
 >~~pre {  

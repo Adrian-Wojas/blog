@@ -1,3 +1,138 @@
+/*
+1. Correct the line height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+html {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
+/* Remove the margin in all browsers. */
+body {
+  margin: 0;
+}
+
+
+/* think about it!!!!!!!!!!!! */
+h1 {
+font-size: 2em;
+margin: 0.67em 0;
+}
+
+
+/* Add the correct text decoration in Safari. */
+abbr[title] {
+-webkit-text-decoration: underline dotted;
+}
+
+
+/* Add the correct font weight in Chrome and Safari. */
+b,
+strong {
+font-weight: bolder;
+}
+
+
+/*
+1. Correct the inheritance and scaling of font size in all browsers.
+2. Correct the odd `em` font sizing in all browsers.
+*/
+pre,
+code,
+kbd,
+samp {
+font-family: monospace, monospace; /* 1 */
+font-size: 1em; /* 2 */
+}
+
+
+/* Prevent 'sub' and 'sup' elements from affecting the line height in all browsers. */
+sub,
+sup {
+line-height: 0;
+}
+
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Safari and `textarea` margin in Firefox.
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+font-family: inherit; /* 1 */
+font-size: 100%; /* 1 */
+line-height: inherit; /* 1 */
+margin: 0; /* 2 */
+}
+
+
+/* Correct the inability to style clickable types in iOS and Safari. */
+[type="button"],
+[type="reset"],
+[type="submit"] {
+-webkit-appearance: button;
+}
+
+
+/* Remove the inner border and padding in Firefox. */
+::-moz-focus-inner {
+border-style: none;
+padding: 0;
+}
+
+
+/* Restore the focus styles unset by the previous rule. */
+:-moz-focusring {
+outline: 1px dotted ButtonText;
+}
+
+
+/* Correct the cursor style of increment and decrement buttons in Safari. */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+height: auto;
+}
+
+
+/* Correct the odd appearance in Safari. */
+[type="search"] {
+-webkit-appearance: textfield;
+}
+
+
+/* Remove the inner padding in Chrome and Safari on macOS. */
+[type="search"]::-webkit-search-decoration {
+-webkit-appearance: none;
+}
+
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+*/
+::-webkit-file-upload-button {
+-webkit-appearance: button; /* 1 */
+font: inherit; /* 2 */
+}
+
+
+/* Add the correct display in Chrome and Safari. */
+summary {
+display: list-item;
+}
+
+
+::placeholder {
+color: #757575;
+opacity: 1;
+/* FOR SAFARI????? */
+line-height: normal/inherit; /* see: https://github.com/necolas/normalize.css/pull/775  */
+}
+
 @media print {
     *,
     *:before,
